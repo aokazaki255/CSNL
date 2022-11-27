@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CSNL
 
 Authors: Akira Okazaki and Shuichi Kawano
@@ -6,3 +7,6 @@ This is an implementation of CSNL in "multi-task learning for compositional data
 
 ### Licence
 These code are free, non-commercial and open source.
+=======
+# CSNL
+>>>>>>> origin/main
