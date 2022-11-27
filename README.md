@@ -34,15 +34,15 @@ This is an implementation of proposed method in "Multi-task Learning for Composi
   
 3. perform the proposed method
 
-  - estimation of proposed method 
-     ```
-     W_hat <- CSNL_estimator(y,Z,R,lambda1,lambda2)
-     ``` 
-  - estimation of constrained Weber problem
-     ```
-     i_ast <- 1
-     w_i_ast <- constraind_Weber_ADMM(W_hat[-i_ast,],R[i_ast,-i_ast])
-     ```
+    - estimation of proposed method 
+       ```
+       W_hat <- CSNL_estimator(y,Z,R,lambda1,lambda2)
+       ``` 
+    - estimation of constrained Weber problem
+       ```
+       i_ast <- 1
+       w_i_ast <- constraind_Weber_ADMM(W_hat[-i_ast,],R[i_ast,-i_ast])
+       ```
 
 ### Licence
 
