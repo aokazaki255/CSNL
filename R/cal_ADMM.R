@@ -1,12 +1,10 @@
 
 #main functions
 
-#tuning parameters related to convergence of ADMM
-#rho,phi,psi
-#convergence parameter
-# thre 
+#rho,phi,psi are tuning parameters related to convergence of ADMM
+#thre is convergence parameter we recommend a small value as possible
 #estimating proposed method
-CSNL_estimator <- function(y,Z,R,lambda1,lambda2,rho=1,phi=1,psi=1,thre=0.01)
+CSNL_estimator <- function(y,Z,R,lambda1,lambda2,rho=1,phi=1,psi=1,thre=0.001)
 {
   n=nrow(Z)
   p=ncol(Z)
